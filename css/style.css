@@ -1,0 +1,54 @@
+#title {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3em;
+    letter-spacing: 0.5rem;
+}
+
+#nav-a:hover {
+    text-decoration: underline !important;
+}
+
+@media (max-width:600px) {
+    nav#section {
+        display: flex;
+        flex-direction: column;
+        text-align:start;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+    }
+
+    div #title-icons{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    div.col-3 {
+        width: 70%;
+    }
+
+    footer {
+        position:sticky;
+        top:0;
+    }
+}
+
+div #title-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+div#icons a:hover {
+    transform:scale(1.03);
+}
+
+div#ropa:hover{
+    transform: scale(1.02);
+    transition: ease 0.3s;
+}
+
+div #ropa {
+    transition: ease 0.3s;
+    cursor: pointer;
+}
