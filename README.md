@@ -1,4 +1,4 @@
-# WAP Store
+# WAP Store 🛒
 
 Replica of e-commerce style website
 
